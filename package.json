@@ -1,0 +1,20 @@
+{
+  "name": "autenticate",
+  "version": "1.0.0",
+  "description": "Autenticador de login",
+  "main": "server.js",
+  "scripts": {
+    "test": "dev",
+    "dev" : "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.13"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2",
+    "require-dir": "^1.2.0"
+  }
+}
